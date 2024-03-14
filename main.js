@@ -7,7 +7,7 @@ let { data: Books, error } = await supabase
   .from('Books')
   .select('*')
 
-  for (let book of Books){
+for (let book of Books){
     let booklist = document.getElementById('Books');
-    booklist.innerHTML += <li>${book.title}</li>;
+    booklist.innerHTML += `<li>${book.title}</li>`;
   }
