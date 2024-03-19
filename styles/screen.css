@@ -49,6 +49,23 @@ img.about {
     opacity: 0.5;
 }
 
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title{
+    margin-left: 130px;
+}
+
+.author{
+    margin-left: 190px;
+}
+
+.isbn{
+
+}
+
 .table{
     margin:auto;
     color: aliceblue;
